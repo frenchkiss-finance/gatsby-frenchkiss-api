@@ -1,7 +1,7 @@
 import { ChainId, Token } from "@frenchkiss-libs/sdk";
 
 // BEP-20 addresses.
-export const KISS = "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82";
+export const KISS = "0x3b44b0cFe3a290906F3C6479df56457db9d7cd59";
 export const WBNB = "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c";
 export const DEAD = "0x000000000000000000000000000000000000dEaD";
 

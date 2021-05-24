@@ -73,7 +73,7 @@ export const getTotalStaked = async (address: string, block: string): Promise<nu
     }));
     const userInfo = await multicall(smartChefABI, calls, blockNumber);
     const balancesMapping = userInfo.reduce(
-      (acc: BigNumber, result: UserInfoResult) => acc.plus(new BigNumber(result.amount._hex)),
+      (acc: BigNumber, result: UserInfoResult) => acc.plus(new BigNumber(result.amount)),
       new BigNumber(0)
     );
 
